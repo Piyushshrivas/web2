@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 600px;
+            border: 3px solid brown;
+            margin: auto;
+        }
+        .item{
+            border: 3px solid rgb(238, 223, 175);
+            margin: 18px 10px;
+            padding: 17px 18px;
+            background-color: paleturquoise;
+        }
+        #fruit{
+            float: left;
+            width: 38%;
+        }
+        #Computer{
+            float: left;
+            width: 38%;
+        }
+        #Stationary{
+         /* float: left;  */
+         clear: left;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, unde nihil? In aspernatur eos placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, iusto totam! Eos earum, distinctio, praesentium sit facere iste ipsam neque perspiciatis voluptatem ea mollitia beatae cupiditate, fugit dignissimos at in.</p>
+        </div>
+        <div id="Computer" class="item">
+            <h3>Computer</h3>
+            <p id="Computerpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, unde nihil? In aspernatur eos placeat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reiciendis laboriosam eaque dolorem temporibus recusandae sint consequuntur, voluptatum similique, ullam dolorum quis pariatur aspernatur! Iste eius, dolore magnam, sit sint animi alias autem voluptatum eveniet ex cumque non error fugit. </p>
+        </div>
+        <div id="Stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="Stationarypara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, unde nihil? In aspernatur eos placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellendus molestias animi dolores obcaecati iure in quasi magni, id, dolore officiis. Expedita quis laboriosam quaerat voluptatibus eaque voluptas quod accusamus veritatis consequatur vel, fugiat atque? Dolorem beatae nihil ad, quisquam blanditiis consequatur nesciunt excepturi, repellendus tempora nam, sunt accusantium? Vero rerum inventore quam eveniet! Eius aliquam aperiam quidem recusandae blanditiis.</p>
+        </div>
+    </div>
+</body>
+</html>
